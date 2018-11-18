@@ -4,9 +4,11 @@ This is a sample for how to use the ![Sketch-RNN](https://github.com/mokafolio/S
 It uses a provided svg file as input and completes it using sketch rnn. Paperjs is used to parse and flatten the svg file, smooth the resulting paths and save the output svg.
 
 **Sample Input:**
+
 <img src="./SampleFiles/input.svg" width="200px">
 
 **Sample Output:**
+
 <img src="./SampleFiles/test.svg" width="200px">
 
 
