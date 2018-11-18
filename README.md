@@ -1,7 +1,10 @@
 # Sketch-RNN and PaperJS NodeJS Sample
 
 This is a sample for how to use the ![Sketch-RNN](https://github.com/mokafolio/SketchRNNNode) NodeJS package.
-It uses a provided svg file as input and completes it using sketch rnn. Paperjs is used to parse and flatten the svg file and save the resulting svg.
+It uses a provided svg file as input and completes it using sketch rnn. Paperjs is used to parse and flatten the svg file, smooth the resulting paths and save the output svg.
+
+[[https://github.com/mokafolio/SketchRNNNodePaperExample/blob/master/input.svg|alt=input]]
+
 
 ## How to?
 
