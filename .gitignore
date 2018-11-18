@@ -60,7 +60,6 @@ typings/
 # next.js build output
 .next
 
-# ignore all svg files for now...
-.svg
+test.svg
 
 package-lock.json
