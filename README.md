@@ -9,7 +9,7 @@ It uses a provided svg file as input and completes it using sketch rnn. Paperjs 
 
 **Sample Output:**
 
-<img src="./SampleFiles/test.svg" width="200px">
+<img src="./SampleFiles/test.svg" width="400px">
 
 
 ## How to?
