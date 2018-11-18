@@ -101,8 +101,6 @@ function finishDrawing(_model, _strokes, _temp) {
 
 // simple function to convert an svg to Stroke3(which sketchrnn needs).
 function svgToStroke5(_svgStr, _flatteningError) {
-    console.log(_svgStr);
-
     let ret = [];
 
     let item = paper.project.importSVG(_svgStr);
@@ -126,7 +124,6 @@ function svgToStroke5(_svgStr, _flatteningError) {
                     }
 
                     if (item.closed) {
-                        console.log("CLOSING BROOOO");
                         let dx = item.segments[0].point.x - lastX;
                         let dy = item.segments[0].point.y - lastY;
                         ret.push([dx, dy, 1, 0, 0]);
