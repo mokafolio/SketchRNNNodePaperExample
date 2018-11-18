@@ -3,8 +3,8 @@
 This is a sample for how to use the ![Sketch-RNN](https://github.com/mokafolio/SketchRNNNode) NodeJS package.
 It uses a provided svg file as input and completes it using sketch rnn. Paperjs is used to parse and flatten the svg file, smooth the resulting paths and save the output svg.
 
-[[https://github.com/mokafolio/SketchRNNNodePaperExample/blob/master/input.svg|alt=input]]
-
+![Sample Input](./SampleFiles/input.svg)
+<img src="./SampleFiles/input.svg">
 
 ## How to?
 
@@ -37,4 +37,4 @@ Optional arguments:
 The model argument is *optional*, it will use the bus model by default.
 
 Here is a minimal sample using the `input.svg` sample file that comes with this sample.
-`node SketchApp.js -i input.svg -o output.svg`
+`node SketchApp.js -i SampleFiles/input.svg -o output.svg`
